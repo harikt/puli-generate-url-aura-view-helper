@@ -1,0 +1,19 @@
+{
+    "name":"harikt/puli-url-generator",
+    "description": "A puli url generator class which can be used as a view helper.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "require": {
+        "puli/url-generator": "~1.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Harikt\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
